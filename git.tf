@@ -3,7 +3,7 @@
 resource "github_repository" "first_repo" {
   name        = "tera_git"
   description = "Gitrepo created from terraform"
-  visibility  = "public"
+  visibility  = "private"
   auto_init   = true
 }
 
